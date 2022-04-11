@@ -1,0 +1,22 @@
+{
+  "name": "eshop",
+  "version": "1.0.0",
+  "description": "nodejs-course-work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslanhlabay/eshop.git"
+  },
+  "author": "Ruslan H.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruslanhlabay/eshop/issues"
+  },
+  "homepage": "https://github.com/ruslanhlabay/eshop#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
