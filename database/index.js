@@ -5,8 +5,8 @@ const sequelize = new Sequelize(
     process.env.DB_USER,
     process.env.DB_PASSWORD,
     {
-        // uncomment this block to use heroku-postgresql connection
-        // dialectOptions: {
+        // // uncomment this block to use heroku-postgresql connection
+        // // dialectOptions: {
         //         ssl: {
         //                 require: true,
         //                 rejectUnauthorized: false

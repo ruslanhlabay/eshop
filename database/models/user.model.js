@@ -19,7 +19,7 @@ const User = sequelize.define(
             }
         },
         password: {
-            type: DataTypes.STRING(64),
+            type: DataTypes.STRING(32),
             allowNull: false,
         },
         firstName: {

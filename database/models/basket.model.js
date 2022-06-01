@@ -31,7 +31,7 @@ const Basket = sequelize.define(
     },
     {
         schema: process.env.DB_SCHEMA,
-        tableName: 'baskets',
+        tableName: 'basket',
         paranoid: true,
     })
 
