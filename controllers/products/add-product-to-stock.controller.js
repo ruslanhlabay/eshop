@@ -11,14 +11,14 @@ async function addProductToStockController(req, res) {
     try {
 
         const productToIncrease = await stockService.getStock(productId)
+        const result = await productToIncrease.increment({quantity: quantity})
 
-            //    const result = await productToIncrease.increment({quantity: quantity})
-
-        const result = await stockService.decreaseProduct(productToIncrease, quantity)
+       // const result = await stockService.decreaseProduct(productToIncrease, quantity)
 
         // res.redirect('/products')
 
         responseService.sendSuccessResponse(res, result, 201)
+
     } catch (e) {
         responseService.sendErrorResponse(res, e.message)
     }
